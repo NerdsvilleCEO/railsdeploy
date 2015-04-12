@@ -22,4 +22,4 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: /var/www/vhosts/deploymentTest/shared/production.sqlite3
